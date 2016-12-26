@@ -1,0 +1,466 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300; /* Roboto Light */
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;  /* Roboto Medium */
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;  /* Roboto Bold */
+}
+
+/* Reset and Set common styles ---------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+header, header nav, header ul, .search, .search form, main, .footer-nav nav, .footer-nav ul, footer, .social-links {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.header-wrapper, .search-wrapper, .footer-nav, .footer-wrapper {
+    width: 100%;
+}
+
+header, .search, main, .footer-nav nav, footer {
+    width: 50.2673%;
+    min-width: 940px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* Elements styles --------------------------------------------------------- */
+
+.header-wrapper {
+    background: url("../images/header-bg.png") center;
+    background-size: cover;
+}
+header {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 1.914893617021277% 0 0.957446% 2px;
+}
+
+h1 {
+    margin-left: -1px;
+    padding-top: 0.4584em;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: white;
+}
+
+.nav-button {
+    display: none;
+}
+
+header nav {
+    width: 49%;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+}
+
+header ul {
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 6.554088%;
+}
+
+header li {
+    font-size: 1.25em;
+}
+
+.header-wrapper a {
+    margin-left: .95em;
+    border-bottom: 1px solid white;
+    line-height: 2em;
+    font-weight: 300;
+    color: white;
+    transition: 0.3s linear color;
+}
+
+.header-wrapper a:hover, .header-wrapper a:active, .header-wrapper a:focus {
+    margin-left: 0.9em;
+    margin-right: -0.05em;
+    border-bottom: none;
+    font-weight: 700;
+    color: #fecd33;
+}
+
+.search-wrapper {
+    background: #960869;
+}
+
+.search {
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+
+.search form {
+    justify-content: space-between;
+    width: 57.553191%;
+    margin: 1.489361% 0 1.702127% 0;
+}
+
+.search form input[type=search] {
+    width: 85.1263%;
+    height: 57px;
+    border: 1px solid black;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 0 3.703704%;
+    outline: none;
+}
+
+.search form input[type=search]::-webkit-input-placeholder {
+    color: black;
+}
+
+.search form input[type=submit] {
+    width: 14.763285%;
+    border: 0;
+    background: url("../images/search-btn.png");
+    cursor: pointer;
+    outline: none;
+}
+
+main nav {
+    width: 31.914894%;
+    margin-top: 6.595745%;
+    margin-right: 10.638298%;
+}
+
+main details {
+    font-weight: 500;
+    font-size: 1.125em;
+    transition: 1s linear all;
+}
+
+main details summary {
+    height: 2.44em;
+    padding-left: 0.8889em;
+    padding-top: 12px;
+    box-shadow: inset 0 -1px 0 #c88611, inset 0 1px 0 #fff8e2;
+    box-sizing: border-box;
+    background: url("../images/details.png") no-repeat;
+    outline: none;
+    cursor: pointer;
+}
+
+main details:last-child {
+    display: none;
+}
+
+main details summary::-webkit-details-marker {
+    display: none;
+}
+
+main details summary::after {
+    content: '';
+    background: url("../images/details-closed.png") no-repeat;
+    float: right;
+    width: 14px;
+    height: 10px;
+    margin-top: 7px;
+    margin-right: 3.666667%;
+}
+
+main details[open] summary::after {
+    content: '';
+    background: url("../images/details-active.png") no-repeat;
+    margin-right: 4.666667%;
+}
+
+main details li {
+    height: 2.44em;
+    padding-left: 6.666667%;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+
+main details ul li:nth-child(odd) {
+    background: #f6f6f6;
+}
+
+details a {
+    color: black;
+}
+
+details a:hover, details a:active, details a:focus {
+    color: #960869;
+}
+
+main article {
+    width: 57.446808%;
+    margin-top: 4.361702%;
+    margin-bottom: 21.595744%;
+    color: #333333;
+}
+
+h2 {
+    padding-bottom: 0.5625em;
+    font-size: 3em;
+    font-weight: 500;
+    color: #213053;
+}
+
+main article p {
+    padding-bottom: 1.34em;
+    font-weight: 400;
+    font-size: 1.07em;
+}
+
+h3 {
+    font-size: 1.875em;
+    font-weight: 500;
+    padding-bottom: 0.367em;
+}
+
+code {
+    display: block;
+    margin-bottom: 2.223%;
+    padding: 0.6em 0 0.5em 0.834em;
+    background: #fff2fb;
+    font-family: "Letter Gothic Std", "Lucida Console", monospace;
+    font-weight: lighter;
+    font-size: 1.125em;
+}
+
+h4 {
+    padding-bottom: 0.65em;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+main article ol {
+    margin-bottom: 5.185185%;
+    margin-top: 1.8518%;
+    padding-left: 22px;
+    text-indent: -6px;
+}
+
+main article ol li {
+    font-weight: 400;
+    font-size: 1.07em;
+}
+
+main ol li code {
+    margin-top: 2.23%;
+    margin-left: -22px;
+    padding-left: 37px;
+    font-size: 1.05em;
+}
+
+h3 + p {
+    margin-top: 1.851852%;
+}
+
+main article ul {
+    margin-bottom: 5%;
+    padding-left: 18px;
+    list-style-type: square;
+    font-weight: 400;
+    font-size: 1.07em;
+}
+
+h5 {
+    padding-bottom: 0.4167em;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+h5 + code {
+    margin-bottom: 6.296296%;
+}
+
+.footer-nav {
+    background: black;
+}
+
+.footer-nav nav {
+    margin: 0 auto;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.footer-nav ul {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 59.574468%;
+}
+
+.footer-nav nav li {
+    display: inline;
+    padding: 1.72em 0 1.31em 0;
+}
+
+.footer-nav a {
+    font-weight: 300;
+    font-size: 1.125em;
+    color: white;
+    border-bottom: 1px solid white;
+    transition: 0.3s ease all;
+}
+
+.footer-nav a:hover, .footer-nav a:active, .footer-nav a:focus {
+    color: #7b7b7b;
+    border-bottom: none;
+}
+
+.footer-nav nav  > a {
+    margin-top: 5px;
+    padding-right: 12px;
+    line-height: 66px;
+    border-bottom: none;
+    box-sizing: border-box;
+    color: #fdcb36;
+    transition: 0.3s ease all;
+}
+
+.footer-nav nav  > a:hover {
+    margin-right: -1px;
+    color: #fdcb36;
+    border-bottom: none;
+    font-weight: 500;
+}
+
+.footer-nav nav > a:active, .footer-nav nav > a:focus {
+    color: #fdcb36;
+}
+
+.footer-wrapper {
+    background: #960869;
+}
+
+footer {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+footer label {
+    font-weight: 300;
+    font-size: 1.25em;
+    color: #fdcc36;
+}
+
+footer section {
+    margin: 4.148936% 0 3.404255% 0;
+}
+
+footer section:nth-child(2) {
+    padding-right: 21px;
+}
+
+footer address {
+    padding-top: 0.723em;
+    line-height: 1.667em;
+    font-weight: 200;
+    font-size: 1.125em;
+    color: white;
+    font-style: normal;
+}
+
+footer section:nth-child(2) address {
+    padding-top: 1em;
+}
+
+footer address h6 {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+footer section img {
+    padding-top: 8px;
+    margin-left: -1px;
+}
+
+footer section:last-child {
+    width: 29.787234%;
+    min-width: 280px;
+    margin-top: 5.319149%;
+    padding-right: 20px;
+}
+
+footer h5 {
+    margin-top: -2px;
+    margin-left: -2px;
+    color: white;
+    font-weight: 300;
+}
+
+.social-links {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    padding-top: 1.4375em;
+    margin-bottom: 42.9%;
+}
+
+.social-links a {
+    display: block;
+    width: 62px;
+    height: 62px;
+    transition: 0.3s all ease;
+}
+
+.social-links a[href*="fb"] {
+    background: url("../images/facebook.png");
+}
+
+.social-links a[href*="fb"]:hover {
+    background: url("../images/facebook-a.png");
+}
+
+.social-links a[href*="twitter"] {
+    background: url("../images/twitter.png");
+}
+
+.social-links a[href*="twitter"]:hover {
+    background: url("../images/twitter-a.png");
+}
+
+.social-links a[href*="linkedin"] {
+    background: url("../images/linkedin.png");
+}
+
+.social-links a[href*="linkedin"]:hover {
+    background: url("../images/linkedin-a.png");
+}
+
+.social-links a[href*="#"] {
+    background: url("../images/dots.png");
+}
+
+.social-links a[href*="#"]:hover {
+    background: url("../images/dots-a.png");
+}
+
+footer section:last-child p {
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.33em;
+}
+
+footer section img[alt*="QAP"] {
+    padding-bottom: 0.44em;
+    padding-top: 0;
+}

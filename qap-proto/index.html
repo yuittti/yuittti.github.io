@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media340.css" media="only screen and (max-width:340px)" />
+
+    <title>Testsite</title>
+</head>
+
+<body>
+
+    <div class="header-wrapper">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="Testsite logo">
+                <h1>TestsitE</h1>
+            </div>
+
+            <!--Navigation button for 340px view mode - invisible in desktop-->
+            <div class="nav-button"></div>
+
+            <nav id="headerNav">
+                <ul>
+                    <li>
+                        <a href="#">Register now</a>
+                    </li>
+                    <li>
+                        <a href="#">What It Is</a>
+                    </li>
+                    <li>
+                        <a href="#">How It Works</a>
+                    </li>
+                    <li>
+                        <a href="#">Issuses</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="search-wrapper">
+        <div class="search">
+            <form name="searchForm">
+                <input type="search" id="searchFld" placeholder="Search">
+                <input type="submit" id="searchBtn" class="search-button" value="">
+            </form>
+        </div>
+    </div>
+
+    <main>
+        <nav id="mobNav">
+            <details open>
+                <summary>Type Of Module #1</summary>
+                <ul>
+                    <li>
+                        <a href="#">Slide pop up</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to adjacent</a>
+                    </li>
+                    <li>
+                        <a href="#">Open PDF</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to without animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to with animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Send e-mail</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Type Of Module #2</summary>
+                <ul>
+                    <li>
+                        <a href="#">Slide pop up</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to adjacent</a>
+                    </li>
+                    <li>
+                        <a href="#">Open PDF</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to without animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to with animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Send e-mail</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Type Of Module #3</summary>
+                <ul>
+                    <li>
+                        <a href="#">Slide pop up</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to adjacent</a>
+                    </li>
+                    <li>
+                        <a href="#">Open PDF</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to without animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to with animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Send e-mail</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Type Of Module #4</summary>
+                <ul>
+                    <li>
+                        <a href="#">Slide pop up</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to adjacent</a>
+                    </li>
+                    <li>
+                        <a href="#">Open PDF</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to without animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to with animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Send e-mail</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Type Of Module #5</summary>
+                <ul>
+                    <li>
+                        <a href="#">Slide pop up</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to adjacent</a>
+                    </li>
+                    <li>
+                        <a href="#">Open PDF</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to without animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to with animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Send e-mail</a>
+                    </li>
+                </ul>
+            </details>
+
+            <!--Invisible in desktop mode - only for 340px view-->
+            <details>
+                <summary>Type Of Module #6</summary>
+                <ul>
+                    <li>
+                        <a href="#">Slide pop up</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to adjacent</a>
+                    </li>
+                    <li>
+                        <a href="#">Open PDF</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to without animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Go to with animation</a>
+                    </li>
+                    <li>
+                        <a href="#">Send e-mail</a>
+                    </li>
+                </ul>
+            </details>
+        </nav>
+
+        <article>
+            <h2>Go to adjacent</h2>
+            <p>Component for drawing in the presen&shy;tation.</p>
+            <p>Consists of the button to enable / dis&shy;able drawing mode and canvas - draw&shy;ing area.</p>
+
+            <h3>Install</h3>
+            <code>bower install --save test/paint-tool</code>
+
+            <h3>Link</h3>
+            <code>&lt;link rv-component="<wbr>components/paint-tool"&gt;</code>
+
+            <h4>Styles:</h4>
+            <code>&lt;link rel="stylesheet" href="compostyle.css"&gt;</code>
+
+            <br>
+            <h4>Use</h4>
+
+            <ol>
+                <li>
+                    Need to add binder to draw any element:
+                    <code>&lt;button rv-paint&gt;Paint&lt;/button&gt;</code>
+                </li>
+                <li>When drawin mode is enabled, on drawing element automatically add class `active`.</li>
+            </ol>
+
+            <h3>Examples</h3>
+            <p>Besides you can change paint-tool de&shy;fault values. To do this, add an object `paint` in app.json.</p>
+            <ul>
+                <li>`lineWidth`*(number)* - painting line width in px</li>
+                <li>`color`*(string)* - painting line color</li>
+                <li>`opacity`*(number[0-1])* - painting line transparency</li>
+            </ul>
+
+            <h5>Default values</h5>
+            <code>"lineWidth": 5,<br>
+                &nbsp;&nbsp;&nbsp;"color":red,<br>
+                &nbsp;&nbsp;"opacity":0.5</code>
+            <h5>Example (app.json)</h5>
+            <code>
+            "paint": {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"lineWidth": 8,<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color": "yellow",<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"opacity": 0.6<br>
+                &nbsp;}
+            </code>
+        </article>
+    </main>
+
+    <div class="footer-nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Site map</a>
+                </li>
+                <li>
+                    <a href="#">Register now</a>
+                </li>
+                <li>
+                    <a href="#">What It Is</a>
+                </li>
+                <li>
+                    <a href="#">How It Works</a>
+                </li>
+                <li>
+                    <a href="#">Issuses</a>
+                </li>
+            </ul>
+            <a href="#">Back to top &uarr;</a>
+        </nav>
+    </div>
+
+    <div class="footer-wrapper">
+        <footer>
+            <section>
+                <label>Contact us</label>
+                <address>
+                    <h6>Tallin</h6>
+                    <p>
+                        Address: Rävala pst 5, Tallinna linn,<br>
+                        Harju maakond, 10143 Estonia<br>
+                        Landline: +372 69 80 467
+                    </p>
+                    <br>
+                    <br>
+
+                    <h6>Zhytomyr</h6>
+                    <p>
+                        Address: 10003, Ukraine, Zhytomyr,<br>
+                        Peremohy str., 99<br>
+                        Landline/Fax: +380 412 425 904<br>
+                        Mobile: +380 98 323 47 68
+                    </p>
+                </address>
+            </section>
+
+            <section>
+                <br>
+                <address>
+                    <h6>Kyiv</h6>
+                    <p>
+                        Address: 04073, Ukraine, Kyiv,<br>
+                        Pymomenko str., 13,<br>
+                        Business Centre “Forum”,<br>
+                        building 6A, office 28<br>
+                        Landline/Fax: +38 044 222 62 65<br>
+                        Mobile: +380 97 532 86 13
+                    </p>
+                </address>
+                <img src="images/logo.png" alt="Testsite logo">
+                <h5>TestsitE</h5>
+            </section>
+
+            <section>
+                <label>Follow us</label>
+                <div class="social-links">
+                    <a href="http://fb.com"></a>
+                    <a href="http://twitter.com"></a>
+                    <a href="http://linkedin.com"></a>
+                    <a href="#"></a>
+                </div>
+
+                <img src="images/qap-logo.png" alt="QAP logo">
+                <p>Privacy Policy.</p>
+                <p>&#169; 2007-2014. All rights reserved.</p>
+                <p>QAPInt is a trademark of QAPInt</p>
+            </section>
+        </footer>
+    </div>
+
+<script src="js/menu.js"></script>
+</body>
+</html>
