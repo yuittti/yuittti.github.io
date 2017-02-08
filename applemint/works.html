@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <!--<title ng-bind="pageTitle"></title>-->
+    <title>Applemint</title>
+
+    <!-- social media tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image:src" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="">
+
+    <link href="css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- font awesome from BootstrapCDN -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/works.css" />
+
+    <!-- compiled JavaScript -->
+    <!--<script type="text/javascript" src="<%= file %>"></script>-->
+
+</head>
+<body class="portfolio" ng-app="applemint" ng-cloak>
+
+<!-- Main menu clone -->
+<nav class="navbar clone">
+    <div class="nav-wrapper">
+        <!-- Logo and mobile burger btn -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+
+                <div class="burger-wrapper">
+                    <div class="burger-icon">
+
+                    </div>
+                </div>
+
+            </button>
+
+            <div class="phone-wrapper">
+                <a href="tel:044451702" class="phone-num-mobile">
+                    <span>044</span> 4517002
+                </a>
+            </div>
+
+
+            <a class="navbar-brand" href="index.html" onclick="return false;">
+                <img src="images/main-logo.png" alt="Applemint">
+            </a>
+        </div>
+
+        <!-- Left and Right parts of nav menu -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="works.html">Работы</a></li>
+                <li><a href="services.html">Наши услуги</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <div class="menu-marker"></div>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" class="phone-num">
+
+                        <span>044</span> 4517002
+                    </a>
+                </li>
+                <li class="pres-dwnld"><a href="#">Скачать презентацию</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav> <!-- /.end main Nav menu-->
+
+<!--Main Nav menu-->
+<nav class="navbar">
+    <div class="nav-wrapper">
+        <!-- Logo and mobile burger btn -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                <div class="burger-wrapper">
+                    <div class="burger-icon">
+
+                    </div>
+                </div>
+
+            </button>
+
+            <div class="phone-wrapper">
+                <a href="tel:044451702" class="phone-num-mobile">
+                    <span>044</span> 4517002
+                </a>
+            </div>
+
+            <a class="navbar-brand" href="index.html" onclick="return false;">
+                <img src="images/main-logo.png" alt="Applemint">
+            </a>
+        </div>
+
+        <!-- Left and Right parts of nav menu -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="works.html">Работы</a></li>
+                <li><a href="services.html">Наши услуги</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <div class="menu-marker"></div>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" class="phone-num">
+
+                        <span>044</span> 4517002
+                    </a>
+                </li>
+                <li class="pres-dwnld"><a href="#">Скачать презентацию</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav> <!-- /.end main Nav menu-->
+
+
+
+<section class="our-works container-fluid" ng-controller="MainCtrl as main" ng-cloak>
+
+    <div class="container">
+        <h1>Наши работы</h1>
+        <p>Мы превращаем Ваши идеи в результат</p>
+        <!--<ul class="works-filters">-->
+            <!--<li><a href="#">Все работы</a><span>28</span></li>-->
+            <!--<li><a href="#">Интернет-магазины</a><span>16</span></li>-->
+            <!--<li><a href="#">Корпоративные</a><span>15</span></li>-->
+            <!--<li><a href="#">Мобильные приложения</a><span>14</span></li>-->
+            <!--<li><a href="#">Landing page</a><span>18</span></li>-->
+        <!--</ul>-->
+
+        <ul class="works-filters">
+            <li ng-repeat="cat in main.cats" ng-class="{'-active': cat.name == main.activeCat }">
+                <a href ng-click="main.changeCat(cat.name)" ng-bind="cat.title"></a>
+                <span ng-bind="cat.numb"></span>
+            </li>
+        </ul>
+
+        <div class="works">
+            <div class="xbig-works works-item"
+                 ng-repeat="item in main.works | limitTo: 1 : 0"
+                 ng-if="main.works.length >= 1">
+                <div class="flipper">
+                    <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                        <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <h3 ng-bind="item.title"></h3>
+                    </div>
+                    <div class="work-details">
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                        <div class="work-description">
+                            <p ng-bind="item.shortDesc"></p>
+                        </div>
+                        <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle-works-col" ng-if="main.works.length >= 2">
+                <div class="middle-works works-item" ng-repeat="item in main.works | limitTo: 2 : 1">
+                    <div class="flipper">
+                        <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                            <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                            <div class="sticker" ng-bind="item.catLabel"></div>
+                            <h3 ng-bind="item.title"></h3>
+                        </div>
+                        <div class="work-details">
+                            <div class="sticker" ng-bind="item.catLabel"></div>
+                            <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                            <div class="work-description">
+                                <p ng-bind="item.shortDesc"></p>
+                            </div>
+                            <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="middle-works works-item">-->
+                    <!--<div class="flipper">-->
+                        <!--<div class="front">-->
+                            <!--<img src="images/portfolio-3.jpg" alt="">-->
+                            <!--<div class="sticker">mob</div>-->
+                            <!--<h3 style="color: black;">Whisky Corner</h3>-->
+                        <!--</div>-->
+                        <!--<div class="work-details">-->
+                            <!--<div class="sticker">mob</div>-->
+                            <!--<a href="work-item.html" class="work-link">Whisky Corner</a>-->
+                            <!--<div class="work-description">-->
+                                <!--<p>Команда Нашей Лавки, это люди, которые хорошо помнят вкус детства: если ягод – то настоящих, сладких, с грядки, если молока, то парного, сыра – вкусного и полезного. И как было бы здорово возобновить эти традиции в нашем большом и красивом, но таком суетном городе!</p>-->
+                            <!--</div>-->
+                            <!--<a href="#" class="site-link">www.nasha-lavka.com</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+
+        <div class="works">
+            <div class="middle-works-col" ng-if="main.works.length >= 4">
+                <div class="middle-works works-item" ng-repeat="item in main.works | limitTo: 2 : 3">
+                    <div class="flipper">
+                        <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                            <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                            <div class="sticker" ng-bind="item.catLabel"></div>
+                            <h3 ng-bind="item.title"></h3>
+                        </div>
+                        <div class="work-details">
+                            <div class="sticker" ng-bind="item.catLabel"></div>
+                            <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                            <div class="work-description">
+                                <p ng-bind="item.shortDesc"></p>
+                            </div>
+                            <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="middle-works works-item">-->
+                    <!--<div class="flipper">-->
+                        <!--<div class="front">-->
+                            <!--<img src="images/portfolio-4.jpg" alt="">-->
+                            <!--<div class="sticker">mob</div>-->
+                            <!--<h3>Whisky Corner</h3>-->
+                        <!--</div>-->
+                        <!--<div class="work-details">-->
+                            <!--<div class="sticker">mob</div>-->
+                            <!--<a href="work-item.html" class="work-link">Whisky Corner</a>-->
+                            <!--<div class="work-description">-->
+                                <!--<p>Команда Нашей Лавки, это люди, которые хорошо помнят вкус детства: если ягод – то настоящих, сладких, с грядки, если молока, то парного, сыра – вкусного и полезного. И как было бы здорово возобновить эти традиции в нашем большом и красивом, но таком суетном городе!</p>-->
+                            <!--</div>-->
+                            <!--<a href="#" class="site-link">www.nasha-lavka.com</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="middle-works works-item">-->
+                    <!--<div class="flipper">-->
+                        <!--<div class="front">-->
+                            <!--<img src="images/portfolio-5.jpg" alt="">-->
+                            <!--<div class="sticker">mob</div>-->
+                            <!--<h3>Whisky Corner</h3>-->
+                        <!--</div>-->
+                        <!--<div class="work-details">-->
+                            <!--<div class="sticker">mob</div>-->
+                            <!--<a href="work-item.html" class="work-link">Whisky Corner</a>-->
+                            <!--<div class="work-description">-->
+                                <!--<p>Команда Нашей Лавки, это люди, которые хорошо помнят вкус детства: если ягод – то настоящих, сладких, с грядки, если молока, то парного, сыра – вкусного и полезного. И как было бы здорово возобновить эти традиции в нашем большом и красивом, но таком суетном городе!</p>-->
+                            <!--</div>-->
+                            <!--<a href="#" class="site-link">www.nasha-lavka.com</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            <div class="big-works works-item"
+                 ng-repeat="item in main.works | limitTo: 1 : 5"
+                 ng-if="main.works.length >= 6">
+                <div class="flipper">
+                    <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                        <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <h3 ng-bind="item.title"></h3>
+                    </div>
+                    <div class="work-details">
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                        <div class="work-description">
+                            <p ng-bind="item.shortDesc"></p>
+                        </div>
+                        <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="small-works works-item"
+                 ng-repeat="item in main.works | limitTo: 1 : 6"
+                 ng-if="main.works.length >= 7">
+                <div class="flipper">
+                    <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                        <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <h3 style="color: #e8342f;" ng-bind="item.title"></h3>
+                    </div>
+                    <div class="work-details">
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                        <div class="work-description">
+                            <p ng-bind="item.shortDesc"></p>
+                        </div>
+                        <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="small-works works-item">-->
+                <!--<div class="flipper">-->
+                    <!--<div class="front">-->
+                        <!--<img src="images/portfolio-7.jpg" alt="">-->
+                        <!--<div class="sticker">web</div>-->
+                        <!--<h3 style="color: #e8342f;">XXL</h3>-->
+                    <!--</div>-->
+
+                    <!--<div class="work-details">-->
+                        <!--<div class="sticker">web</div>-->
+                        <!--<a href="work-item.html" class="work-link">XXL</a>-->
+                        <!--<div class="work-description">-->
+                            <!--<p>Команда Нашей Лавки, это люди, которые хорошо помнят вкус детства: если ягод – то настоящих, сладких, с грядки, если молока, то парного, сыра – вкусного и полезного. И как было бы здорово возобновить эти традиции в нашем большом и красивом, но таком суетном городе!</p>-->
+                        <!--</div>-->
+                        <!--<a href="#" class="site-link">www.nasha-lavka.com</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        </div>
+
+        <!-- //************************** -->
+
+        <div class="works"
+             ng-if="main.works.length > 7 && main.allVisible"
+             ng-repeat="i in main.blocks track by $index">
+
+            <div class="middle-works-col">
+                <div class="middle-works works-item" ng-repeat="item in main.works | limitTo: 2 : 7+4*$index">
+                    <div class="flipper">
+                        <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                            <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                            <div class="sticker" ng-bind="item.catLabel"></div>
+                            <h3 ng-bind="item.title"></h3>
+                        </div>
+                        <div class="work-details">
+                            <div class="sticker" ng-bind="item.catLabel"></div>
+                            <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                            <div class="work-description">
+                                <p ng-bind="item.shortDesc"></p>
+                            </div>
+                            <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="big-works works-item"
+                 ng-repeat="item in main.works | limitTo: 1 : 9+4*$index"
+                 ng-if="main.works.length >= 6">
+                <div class="flipper">
+                    <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                        <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <h3 ng-bind="item.title"></h3>
+                    </div>
+                    <div class="work-details">
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                        <div class="work-description">
+                            <p ng-bind="item.shortDesc"></p>
+                        </div>
+                        <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="small-works works-item"
+                 ng-repeat="item in main.works | limitTo: 1 : 10+4*$index"
+                 ng-if="main.works.length >= 7">
+                <div class="flipper">
+                    <div class="front" ng-style="{'background-image': 'url(' + item.mainImg + ')'}">
+                        <!--<img src="{{item.mainImg}}" alt="{{item.title}}">-->
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <h3 style="color: #e8342f;" ng-bind="item.title"></h3>
+                    </div>
+                    <div class="work-details">
+                        <div class="sticker" ng-bind="item.catLabel"></div>
+                        <a href="{{item.linkIn}}" class="work-link" ng-bind="item.title"></a>
+                        <div class="work-description">
+                            <p ng-bind="item.shortDesc"></p>
+                        </div>
+                        <a href="{{item.link}}" class="site-link" ng-bind="item.link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="more-works" ng-if="!main.allVisible && main.works.length > 7">
+            <a href ng-click="main.showAll()">Посмотреть все работы</a>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="our-blog container-fluid">
+    <div class="wrapper container-fluid">
+        <h3>Блог</h3>
+
+        <div class="blog-item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a href="#">
+                <img src="images/blog1.png" alt="">
+                <p>Twitter-аккаунт Стивена Фрая был удален после неловкой шутки</p>
+                <span>12 сентября</span>
+            </a>
+        </div>
+
+        <div class="blog-item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a href="#">
+                <img src="images/blog1.png" alt="">
+                <p>Twitter-аккаунт Стивена Фрая был удален после неловкой шутки</p>
+                <span>12 сентября</span>
+            </a>
+        </div>
+
+        <div class="blog-item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a href="#">
+                <img src="images/blog1.png" alt="">
+                <p>Twitter-аккаунт Стивена Фрая был удален после неловкой шутки</p>
+                <span>12 сентября</span>
+            </a>
+        </div>
+
+        <div class="blog-item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a href="#">
+                <img src="images/blog1.png" alt="">
+                <p>Twitter-аккаунт Стивена Фрая был удален после неловкой шутки</p>
+                <span>12 сентября</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="feedback container-fluid">
+    <div class="wrapper container">
+        <h3>Напишите Нам</h3>
+
+        <form id="feedbackForm" name="feedbackForm" action="feedback.php" novalidate>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <input type="text" required>
+                <label>Ваше Имя</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <input type="text" required>
+                <label>Мой email</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <input type="text" required>
+                <label>Задайте вопрос</label>
+            </div>
+            <div class="col-lg-offset-4 col-md-offset-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <input type="submit" value="Отправить">
+            </div>
+
+        </form>
+    </div>
+</section>
+
+<footer class="container-fluid">
+    <div class="footer-wrapper">
+        <div class="social-links">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-twitter"></i>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-vk"></i>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="footer-menu">
+            <ul>
+                <li>
+                    <ul>
+                        <li><a href="#">Работы</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Отзывы клиентов</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Офис</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="#">Наши услуги</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Отзывы клиентов</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Офис</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Новости</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>Контакты</li>
+                        <li>
+                            <address>
+                                Ukraine, Kiev, Vasylkivska street, 37, 7th Floor, <br>
+                                Phone: +380 (44) 451-70-02
+                            </address>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="copyright">
+            <span>2012-2016 © Все права защищены</span>
+        </div>
+    </div>
+
+    <div class="footer-deco">
+        <!--<div class="footer-deco-1">-->
+
+        <!--</div>-->
+        <!--<div class="footer-deco-2">-->
+
+        <!--</div>-->
+        <!--<div class="footer-deco-3">-->
+
+        <!--</div>-->
+
+        <img src="images/bottom-deco.png" alt=""/>
+        <!--</div>-->
+
+        <!--<ul id="parallax-bottom" class="">-->
+        <!--<li class="parallax-layer"><img src="images/bottom-deco-3.png" alt=""></li>-->
+        <!--<li class="parallax-layer"><img src="images/bottom-deco-2.png" alt=""></li>-->
+        <!--<li class="parallax-layer"><img src="images/bottom-deco-1.png" alt=""></li>-->
+        <!--</ul>-->
+    </div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+<script src="app/build/libs/angular/angular.min.js"></script>
+<script src="app/build/js/app.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

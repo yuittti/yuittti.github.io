@@ -1,0 +1,181 @@
+[
+  {
+    "name": "test1",
+    "title": "Тестовая работа1",
+    "category": "web",
+    "catLabel": "web",
+    "catTitle": "Корпоративные",
+    "mainImg": "images/portfolio-1.jpg",
+    "link": "www.test.test",
+    "linkIn": "work-item.html",
+    "shortDesc": "Тестовая работа1 Команда Нашей Лавки, это люди, которые хорошо помнят вкус детства: если ягод – то настоящих, сладких, с грядки, если молока, то парного, сыра – вкусного и полезного. И как было бы здорово возобновить эти традиции в нашем большом и красивом, но таком суетном городе!",
+    "showFirst": "true"
+  },
+  {
+    "name": "test2",
+    "title": "Тестовая работа2",
+    "category": "mobile",
+    "catLabel": "mob",
+    "catTitle": "Мобильные приложения",
+    "mainImg": "images/portfolio-2.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test3",
+    "title": "Тестовая работа3",
+    "category": "landing",
+    "catLabel": "LP",
+    "catTitle": "Landing page",
+    "mainImg": "images/portfolio-4.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test4",
+    "title": "Тестовая работа4",
+    "category": "eshop",
+    "catLabel": "shop",
+    "catTitle": "Интернет-магазины",
+    "mainImg": "images/portfolio-5.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test5",
+    "title": "Тестовая работа5",
+    "category": "eshop",
+    "catLabel": "shop",
+    "catTitle": "Интернет-магазины",
+    "mainImg": "images/portfolio-5.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test6",
+    "title": "Тестовая работа6",
+    "category": "web",
+    "catLabel": "web",
+    "catTitle": "Корпоративные",
+    "mainImg": "images/portfolio-6.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test7",
+    "title": "Тестовая работа7",
+    "category": "mobile",
+    "catLabel": "mob",
+    "catTitle": "Мобильные приложения",
+    "mainImg": "images/portfolio-7.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test8",
+    "title": "Тестовая работа8",
+    "category": "web",
+    "catLabel": "web",
+    "catTitle": "Корпоративные",
+    "mainImg": "images/portfolio-1.jpg",
+    "link": "www.test.test",
+    "linkIn": "work-item.html",
+    "shortDesc": "Тестовая работа1 Команда Нашей Лавки, это люди, которые хорошо помнят вкус детства: если ягод – то настоящих, сладких, с грядки, если молока, то парного, сыра – вкусного и полезного. И как было бы здорово возобновить эти традиции в нашем большом и красивом, но таком суетном городе!",
+    "showFirst": "true"
+  },
+  {
+    "name": "test9",
+    "title": "Тестовая работа9",
+    "category": "mobile",
+    "catLabel": "mob",
+    "catTitle": "Мобильные приложения",
+    "mainImg": "images/portfolio-2.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test10",
+    "title": "Тестовая работа10",
+    "category": "landing",
+    "catLabel": "LP",
+    "catTitle": "Landing page",
+    "mainImg": "images/portfolio-4.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test11",
+    "title": "Тестовая работа11",
+    "category": "eshop",
+    "catLabel": "shop",
+    "catTitle": "Интернет-магазины",
+    "mainImg": "images/portfolio-5.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test12",
+    "title": "Тестовая работа12",
+    "category": "eshop",
+    "catLabel": "shop",
+    "catTitle": "Интернет-магазины",
+    "mainImg": "images/portfolio-5.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test13",
+    "title": "Тестовая работа13",
+    "category": "web",
+    "catLabel": "web",
+    "catTitle": "Корпоративные",
+    "mainImg": "images/portfolio-6.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test14",
+    "title": "Тестовая работа14",
+    "category": "mobile",
+    "catLabel": "mob",
+    "catTitle": "Мобильные приложения",
+    "mainImg": "images/portfolio-7.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test15",
+    "title": "Тестовая работа15",
+    "category": "landing",
+    "catLabel": "LP",
+    "catTitle": "Landing page",
+    "mainImg": "images/portfolio-7.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  },
+  {
+    "name": "test16",
+    "title": "Тестовая работа16",
+    "category": "web",
+    "catLabel": "web",
+    "catTitle": "Корпоративные",
+    "mainImg": "images/portfolio-7.jpg",
+    "link": "www.123.123",
+    "shortDesc": "Lorem lorem ipsum ipsum dolore dolore",
+    "showFirst": "true"
+  }
+
+]

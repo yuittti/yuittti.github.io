@@ -1,0 +1,110 @@
+section.our-contacts {
+    background: #00a964;
+
+}
+
+section.our-contacts > .wrapper {
+    padding: 44px 100px 44px 100px;
+}
+
+.our-contacts h1 {
+    color: white;
+    text-align: center;
+
+}
+
+.our-contacts .contact-items {
+    overflow: auto;
+    margin-top: 100px;
+}
+
+.our-contacts .contact-items > div {
+    font-family: AvenirNextCyr-Reg, sans-serif;
+    font-size: 2.8em;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+@-moz-document url-prefix() {
+    .our-contacts .contact-items > div {
+        font-family: Roboto-Reg, sans-serif;
+    }
+}
+
+
+.our-contacts .contact-items a:link,
+.our-contacts .contact-items a:visited,
+.our-contacts .contact-items a:hover,
+.our-contacts .contact-items a:active,
+.our-contacts .contact-items a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.our-contacts .contact-items address {
+    margin: 0;
+}
+
+.our-contacts .contact-img {
+    width: 90px;
+    margin: 28px auto 28px auto;
+}
+
+section.our-contacts + section.feedback {
+    margin-top: 0;
+}
+
+section.our-contacts + section.feedback > .wrapper {
+    /*padding: 45px 100px 165px 100px;*/
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+
+section.our-contacts + section.feedback:before,
+section.our-contacts + section.feedback:after {
+    display: none;
+}
+
+@media screen and (max-width: 1383px) {
+    .our-contacts .contact-items > div {
+        font-size: 2.4em;
+    }
+
+    section.our-contacts > .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-contacts .contact-items {
+        margin-top: 50px;
+    }
+
+    section.our-contacts + section.feedback > .wrapper {
+        padding-top: 0;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .our-contacts .contact-items > div {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .our-contacts .contact-items {
+        margin-top: 20px;
+    }
+
+    .our-contacts .contact-items > div {
+        font-size: 1.8em;
+    }
+
+    .our-contacts + section.feedback h3 {
+        margin-top: 20px;
+    }
+}
+

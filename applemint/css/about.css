@@ -1,0 +1,355 @@
+.about-us.container-fluid {
+    background: #ecf4f7;
+    padding: 35px 77px;
+
+    color: #353b41;
+}
+
+.about-us .wrapper.container-fluid {
+    padding: 0;
+    max-width: 1380px;
+}
+
+.about-us h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-us h4 {
+    font-family: AvenirNextCyr-Thin, sans-serif;
+    font-size: 4.6em;
+    line-height: 1.175em;
+    margin: 55px 0;
+}
+
+@-moz-document url-prefix() {
+    .about-us h4 {
+        font-family: AvenirNextCyr-Light, sans-serif;
+    }
+}
+
+.about-us p {
+    font-family: AvenirNextCyr-Thin, sans-serif;
+    font-size: 2.5em;
+    text-shadow: 0 0 0;
+    margin-bottom: 0;
+}
+
+@-moz-document url-prefix() {
+    .about-us p {
+        font-family: AvenirNextCyr-Light, sans-serif;
+    }
+}
+
+.about-us + .infographics.container-fluid {
+    background: #ecf4f7;
+    padding: 40px 77px 0 77px;
+}
+
+.about-us + .infographics .wrapper {
+    max-width: 1380px;
+    /*height: 377px;*/
+    background: url(../../applemint/images/about-infograph-bg.png) center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    padding: 6.5% 0;
+    text-align: center;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.about-us + .infographics .infograph-item {
+    background: transparent;
+    width: auto;
+    max-width: 25%;
+    height: auto;
+    margin: 0;
+}
+
+.about-us + .infographics .infograph-item:after {
+    display: none;
+}
+
+.about-us + .infographics .infograph-item div {
+    /*margin-top: 100px;*/
+    /*margin-bottom: 80px;*/
+    margin: 0;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+
+}
+
+
+.about-us + .infographics .infograph-item label,
+.about-us + .infographics .infograph-item p {
+    color: #00a964;
+}
+
+.about-us + .infographics .infograph-item p {
+    padding: 0 10%;
+    max-height: 3em;
+    overflow: hidden;
+}
+
+.about.our-team {
+    background: #ecf4f7;
+    padding: 35px 77px;
+}
+
+.about.our-team .wrapper.container-fluid {
+    padding: 0;
+    max-width: 1380px;
+    border: none;
+}
+
+.about.our-team h3 {
+    font-family: AvenirNextCyr-Thin, sans-serif;
+    font-size: 4.6em;
+    line-height: 1.175em;
+    margin: 55px 0;
+    text-shadow: 0 0 0;
+}
+
+@-moz-document url-prefix() {
+    .about.our-team h3 {
+        font-family: AvenirNextCyr-Light, sans-serif;
+    }
+}
+
+.about.our-team .team-items {
+    width: 100%;
+    max-width: 1290px;
+}
+
+.about.our-team .team-item {
+    width: 20%;
+    /*display: inline-block;*/
+    /*margin-left: -3px;*/
+
+    display: block;
+    float: left;
+    margin-left: 0;
+}
+
+.about.our-team .team-item:first-child {
+    margin-left: 0;
+}
+
+.about.our-team .join-us {
+    position: relative;
+    bottom: 0;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.about.our-team .join-btn {
+    position: relative;
+     left: 0;
+     -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+     transform: none;
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    background: url("../../applemint/images/yellow-leaf.png") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.about.our-blog {
+    margin-top: 58px;
+}
+
+
+@media screen and (max-width: 1383px) {
+    .about-us h4 {
+        font-size: 3.6em;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .about-us + .infographics .infograph-item label {
+        font-size: 12em;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .about-us + .infographics.container-fluid {
+        padding-top: 15px;
+    }
+
+    .about.our-team {
+        padding-top: 0;
+    }
+
+    .about-us h4 {
+        font-size: 3em;
+    }
+
+    .about-us p {
+        font-size: 2.2em;
+
+    }
+
+    .about.our-team .join-us {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 1188px) {
+    .about-us + .infographics.container-fluid,
+    .about-us.container-fluid,
+    .about.our-team {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about.our-team .team-items {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about.our-team .team-item:nth-of-type(5) {
+        display: none;
+    }
+
+    .about.our-team .team-item {
+        width: 25%;
+    }
+
+    .about.our-team .join-us {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .about-us + .infographics .infograph-item label {
+        font-size: 10em;
+    }
+
+    .about.our-blog {
+        margin-top: 0;
+        border-top: 1px solid white;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about.our-team .team-item {
+        width: 50%;
+    }
+
+    .our-team .team-item p {
+        height: 5.6em;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .our-blog .wrapper {
+        margin-bottom: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us + .infographics .infograph-item label {
+        font-size: 7em;
+    }
+
+    .about-us + .infographics .infograph-item p {
+        font-size: 1.8em;
+
+    }
+
+    .about.our-team h3 {
+        margin: 35px 0;
+    }
+
+    .about-us h4 {
+        font-size: 2.5em;
+    }
+
+    .about-us p {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about-us + .infographics .wrapper {
+        webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: wrap;
+        background: white;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .about-us + .infographics .infograph-item {
+        width: 49.5%;
+        max-width: 49.5%;
+        padding: 30px 0px;
+    }
+
+    .about.our-team .team-item {
+        width: 100%;
+    }
+
+    .our-team .team-item p {
+        height: auto;
+        overflow: visible;
+    }
+
+    .about.our-team h3 {
+        font-family: AvenirNextCyr-Light, sans-serif;
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-us h4 {
+        font-family: AvenirNextCyr-Light, sans-serif;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .about-us p {
+        font-family: AvenirNextCyr-Light, sans-serif;
+        font-size: 1.6em;
+        color: gray;
+        text-align: center;
+    }
+
+    .about.our-team h3 {
+        font-size: 3em;
+    }
+
+    .about.our-team .join-us {
+        margin-top: 0;
+    }
+
+}
