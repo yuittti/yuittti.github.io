@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SIXT - rent a car</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="#" type="image/x-icon">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+
+		<header class="header">
+			<div class="container header-container">
+				<div class="header-left">
+					<a href="/" class="header-logo">
+						<img src="images/icons/sixt_logo.svg" alt="Sixt rent a car">
+					</a>
+				</div>
+
+				<div class="header-right">
+					<div class="header-links">
+						<a href="#">
+							LKW Vermietung
+						</a>
+						<a href="#">
+							Login
+						</a>
+					</div>
+
+					<nav class="header-menu">
+						<div class="dropDown">
+							<a href="/" class="dropDown-link" data-choosed="false">
+								<span>Menu</span>
+							</a>
+							<div class="dropDown-content">
+								<a class="dropDown-item" href="/">
+									Choose a car
+								</a>
+								<a class="dropDown-item" href="/">
+									Our services
+								</a>
+								<a class="dropDown-item" href="/">
+									Conditions
+								</a>
+								<a class="dropDown-item" href="/">
+									Prices
+								</a>
+								<a class="dropDown-item" href="/">
+									About us
+								</a>
+								<a class="dropDown-item" href="/">
+									FAQ
+								</a>
+								<a class="dropDown-item" href="/">
+									Contact us
+								</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section class="search-section">
+			<div class="search-slider">
+				<div class="slider-container">
+					<div class="slider-holder">
+						<div class="slider-item _active">
+							<img src="images/slides/slide2.jpg" alt="" class="slider-item-lg">
+							<img src="images/slides/slide1m.jpg" alt="" class="slider-item-sm">
+							<a href="/slide1" class="slider-link">&nbsp;</a>
+						</div>
+						<div class="slider-item">
+							<img src="images/slides/slide1.jpg" alt="" class="slider-item-lg">
+							<img src="images/slides/slide1m.jpg" alt="" class="slider-item-sm">
+							<a href="/slide2" class="slider-link">&nbsp;</a>
+						</div>
+						<div class="slider-item">
+							<img src="images/slides/slide3.jpg" alt="" class="slider-item-lg">
+							<img src="images/slides/slide1m.jpg" alt="" class="slider-item-sm">
+							<a href="/slide3" class="slider-link">&nbsp;</a>
+						</div>
+					</div>
+					<div id="prevSlide" class="slider-prev"></div>
+					<div id="nextSlide" class="slider-next"></div>
+				</div>
+			</div>
+
+			<div class="ibe container">
+				<div class="ibe-wrap">
+					<form action="/" name="ibeForm" id="ibeForm" method="post" class="ibe-form">
+						<div class="ibe-place">
+							<label for="ibePlaceSearch" class="ibe-label">Abholdung & Rückgabezeit</label>
+							<input type="text" id="ibePlaceSearch" name="ibePlaceSearch" placeholder="Faro Flughafen">
+							<span class="ibe-place-info">Rückgabe ändern</span>
+						</div>
+
+						<div class="ibe-date">
+							<label for="ibeDateStart" class="ibe-label">Abholzeit</label>
+							<input type="text" id="ibeDateStart" name="ibeDateStart" placeholder="15.07.2017&nbsp;&nbsp;12:00">
+						</div>
+						<div class="ibe-date">
+							<label for="ibeDateEnd" class="ibe-label">Rückgabezeit</label>
+							<input type="text" id="ibeDateEnd" name="ibeDateEnd" placeholder="15.07.2017&nbsp;&nbsp;12:00">
+						</div>
+						<div class="ibe-submit">
+							<label class="ibe-submit-label">Preise Ermitteln</label>
+							<input type="submit" id="ibeSubmit">
+						</div>
+					</form>
+				</div>
+
+				<div class="ibe-info">
+					<a href="#" class="ibe-info-link">Zustellung und Abholung</a>
+					<a href="#" class="ibe-info-link">Umbuchen & Stornieren</a>
+					<a href="#" class="ibe-info-link">Sixt Kundenlogin</a>
+				</div>
+			</div>
+		</section>
+
+	  	<script src="./libs/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
